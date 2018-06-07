@@ -14,19 +14,23 @@ var storyMain = [
         who: 'ia'
       },
       {
-        text: '*Chargement des données *',
+        text: '*Chargement des données*',
         who: 'ia'
       },
       {
-        text: '*-SAI-1 an 2940 Dans un univers ou la technique avait permis de nombreuses prouesses techniques, le terraformage ou la modification d\'une planète pour la rendre habitable restait un enjeu de taille. *',
+        text: '*Je me présente, je suis une intelligence artificielle, commandant de ce vaisseau*',
         who: 'ia'
       },
       {
-        text: '*Contacter par une société anonyme qui leur proposait de les payer gracieusement en échange de coordonnées de planètes potentielles.*',
+        text: '*-SAI-1 an 2940 Dans un univers ou la technologie avait permis de nombreuses prouesses techniques, le terraformage ou la modification d\'une planète pour la rendre habitable restait un enjeu de taille.*',
         who: 'ia'
       },
       {
-        text: '*Nous suivons l\'équipage du pilote Tom Shepard, accompagné du biologiste James Thatch, ainsi que d\'un ingénieur mécanique répondant au nom de Vincent Sinclar .*',
+        text: '*Nous suivons mon équipage composé du pilote Tom Shepard, accompagné du biologiste James Thatch, ainsi que d\'un ingénieur mécanique répondant au nom de Vincent Sinclar.*',
+        who: 'ia'
+      },
+      {
+        text: '*Contacter par une société anonyme qui nous proposait un beau pactole en échange de coordonnées de planètes potentielles.*',
         who: 'ia'
       },
       {
@@ -46,11 +50,11 @@ var storyMain = [
         who: 'James'
       },
       {
-        text: 'En tout cas une chose est sur, c\'est un plaisir ce voyager avec vous les gars....',
+        text: 'En tout cas, une chose est sur, c\'est un plaisir ce voyager avec vous les gars....',
         who: 'James'
       },
       {
-        text: 'Ia ! Tu peux nous dire les régions sur lesquels l\'on peut se poser ?',
+        text: 'Commandant ! Tu peux nous dire les régions sur lesquels l\'on peut se poser ?',
         who: 'James'
       },
       {
@@ -89,7 +93,7 @@ var storyMain = [
         who: 'ia'
       },
       {
-        text: 'Vincent Tom, on détecte un signal de détresse dans cette région',
+        text: 'Vincent, Tom, on détecte un signal de détresse dans cette région',
         who: 'ia'
       },
       {
@@ -184,7 +188,7 @@ var storyMain = [
         who: 'ia'
       },
       {
-        text: 'echec',
+        text: 'Aie, aie, aie, votre équipage est dans de sales draps',
         who: 'fin'
       }
     ],
@@ -226,7 +230,7 @@ var storyMain = [
         who: 'ia'
       },
       {
-        text: 'echec',
+        text: 'Aie, aie, aie, votre équipage est dans de sales draps',
         who: 'fin'
       }
     ],
@@ -336,7 +340,7 @@ var storySecond = [
         who: 'ia'
       },
       {
-        text: 'echec',
+        text: 'Bravo, vous avez découvert une planète habitable !',
         who: 'fin'
       }
     ],
@@ -394,7 +398,7 @@ var storyThird = [
         who: 'Vincent'
       },
       {
-        text: 'Pour cette raison que on a les masques héhé.',
+        text: 'C\'pour cette raison qu\'on a les masques héhé.',
         who: 'Tom'
       },
       {
@@ -442,7 +446,7 @@ var storyThird = [
         who: 'Tom'
       },
       {
-        text: '*Par contre faudra prévenir la société que si ils veulent rendre la planète habitable il y a du boulot qui les attends.*',
+        text: '*Par contre faudra prévenir la société que s\'ils veulent rendre la planète habitable il y a du boulot qui les attends.*',
         who: 'Tom'
       },
       {
@@ -458,7 +462,7 @@ var storyThird = [
         who: 'ia'
       },
       {
-        text: 'succes',
+        text: 'Bravo, vous avez découvert une planète habitable !',
         who: 'fin'
       },
     ],
@@ -488,11 +492,11 @@ var storyThird = [
         who: 'Tom'
       },
       {
-        text: 'Mais tu raconte quoi sale chien ?! Comment tu peux etre sur de ça ?',
+        text: 'Mais tu raconte quoi toi ?! Comment tu peux etre sur de ça ?',
         who: 'Vincent'
       },
       {
-        text: 'L\'ia nous aurait tenu informer de toute menace au alentour, pas vrai ia ? ',
+        text: 'Le vaisseau nous aurait tenu informer de toute menace au alentour, pas vrai Commandant ? ',
         who: 'Tom'
       },
       {
@@ -500,7 +504,7 @@ var storyThird = [
         who: 'ia'
       },
       {
-        text: 'Bon c\'est decide on va visite les environs.',
+        text: 'Bon c\'est decide on va visiter les environs.',
         who: 'Tom'
       },
       {
@@ -544,7 +548,7 @@ var storyThird = [
         who: 'Tom'
       },
       {
-        text: 'Un virus est présent dans tout les échantillons... Il y a de forte chance que nous 2 soyons infecter.',
+        text: 'Un virus est présent dans tout les échantillons... Il y a de forte chance que nous 2 soyons infecté.',
         who: 'James'
       },
       {
@@ -560,7 +564,7 @@ var storyThird = [
         who: 'ia'
       },
       {
-        text: 'echec',
+        text: 'Cette planète ne semble pas habitable, et la moitié de votre équipage est mort, bravo !',
         who: 'fin'
       },
     ],
